@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no,maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/weather.css">
+    <title>昀天气</title>
+</head>
+<body>
+    <div class="box">
+        <div class="weather-top-nav">
+            <div class="top">昀天气</div>
+            <div class="search-nav clearfix">
+                <div class=" fl location"></div>
+                <div class="fl cityname"></div>
+                <div class="fl search">
+                    <input class="inp fl" type="text" placeholder="输入城市，如：广州" autocomplete="off">
+                    <span class="search-icon fl"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather-content-nav">
+            <div class="sameday-box">
+                <div class="time-box clearfix">
+                    <div class="date fl"></div>
+                    <div class="week fl"></div>
+                </div>
+
+                <div class="tem-box clearfix">
+                    <span class="tem fl"></span>
+                    <div class="tem-weather fl">
+                        <span class="wea fl"></span>
+                        <span class="air_level fl"></span>
+                    </div>
+                </div>
+
+                <div class="weather-win-box clearfix">
+                    <div class="win fl"></div>
+                    <div class="win_speed fl"></div>
+                    <div class="win_meter fl"></div>
+                </div>
+            </div>
+
+
+            <div class="hover-box">
+                <div class="hover_title">24小时天气</div>
+
+                <div class="hover_weather">
+                    <ul class="clearfix hWeather">
+                        <!-- <li>
+                            <div>20时</div>
+                            <div>111</div>
+                            <div>22℃</div>
+                            <div>东南风</div>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+
+            <div class="fulture-weather-box">
+                <div class="fulture-timer-title">未来六天天气</div>
+
+                <div class="fulture-weather">
+                    <ul class="clearfix fWeather" >
+                        <!-- <li class="clearfix">
+                            <div>22日</div>
+                            <div>11</div>
+                            <div>22-34</div>
+                            <div>东风</div>
+                        </li>
+
+                        <li class="clearfix">
+                            <div>22日</div>
+                            <div>11</div>
+                            <div>22-34</div>
+                            <div>东风</div>
+                        </li>
+
+                        <li class="clearfix">
+                            <div>22日</div>
+                            <div>11</div>
+                            <div>22-34</div>
+                            <div>东风</div>
+                        </li>
+
+                        <li class="clearfix">
+                            <div>22日</div>
+                            <div>11</div>
+                            <div>22-34</div>
+                            <div>东风</div>
+                        </li> -->
+                        
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/rem.js"></script>
+    <script src="./js/weather.js"></script>
+</body>
+</html>

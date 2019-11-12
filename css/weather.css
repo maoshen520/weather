@@ -1,0 +1,233 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+    font-size: 16px;
+    color: #fff;
+}
+ul{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+}
+.auto-img{
+    width: 100%;
+    display:block;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.box{
+    width: 3.75rem;
+    height: 6.67rem;
+    background: url(../images/city2.png) no-repeat center center;
+    background-size:3.75rem  6.67rem;
+    color: #000;
+}
+
+.weather-top-nav{
+    position: sticky;
+    top: 0;
+}
+.top{
+    height: 22px;
+    background-color: rgb(248, 244, 244 0.5);
+    text-align: center;
+    color: #000;
+    /* opacity: 0.5; */
+}
+
+.search-nav{
+    height:.44rem;
+    /* background-color: #ddd; */
+    padding:0 .1rem;
+    border-bottom: 1px solid #fff;
+}
+.location{
+    width: .2rem;
+    height: .2rem;
+    background: url(../images/location.png) no-repeat center center;
+    background-size: .2rem .2rem;
+    margin-top: .12rem;
+}
+.cityname{
+    width: .64rem;
+    margin-top: .11rem;
+    margin-left: .1rem;
+}
+
+.search{
+    width: calc(100% - 1.52rem);
+    height: .28rem;
+    background-color: #fff;
+    /* background-image: linear-gradient(to right, rgba(255,255,255, .1)-30% ,rgba(255,255,255, .8)100%); */
+    margin-top: .08rem;
+    margin-left: .2rem;
+    border-radius: .14rem;
+    padding-left: .14rem;
+    padding-right: .14rem;
+    /* opacity: 0.8; */
+}
+.inp{
+    display: block;
+    width: calc(100% - .2rem);
+    height: .28rem;
+    color: #000;
+}
+.search-icon{
+    width: .2rem;
+    height: .2rem;
+    background: url(../images/放大镜.png) no-repeat center center;
+    background-size: .2rem .2rem;
+    margin-top:.04rem;
+}
+
+.weather-content-nav{
+    overflow: hidden;
+    /* overflow: ; */
+    overflow-y: auto;
+    height: calc(100% - 24px - .44rem);
+}
+
+
+
+.sameday-box{
+    margin: .3rem;
+    padding: .3rem;
+    background-color: rgba(0, 176, 240, .3);
+    border-radius: .15rem;
+    box-shadow: 0 0 16px 2px  rgba(0, 176, 240, .5) inset;;
+
+}
+.date{
+    font-size:.2rem;
+}
+.week{
+    font-size: .2rem;
+    margin-left: .2rem;
+}
+.tem{
+    width: 1.32rem;
+    font-size: .6rem;
+    height: .79rem;
+  }
+
+.tem-weather{
+    position: relative;
+    width: calc(100% - 1.52rem);
+    margin-left: .2rem;
+    height: .79rem;
+}
+.wea{
+    width: .3rem;
+    height: .3rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size:.3rem .3rem ;
+}
+.air_level{
+    position: absolute;
+    bottom: 0;
+    left:.5rem;
+    font-size: .2rem;
+}
+
+.weather-win-box{
+    margin-top: .3rem;
+}
+
+.win_speed,.win_meter{
+    margin-left: .2rem;
+}
+
+.hover-box{
+    background-color: rgba(0, 176, 240, 0.3);
+}
+.hover_title{
+    padding: .05rem;
+    border-bottom:1px solid #fff;
+}
+
+
+.hover_weather{
+    overflow-x: auto;
+    padding: .1rem;
+    text-align: center;
+}
+
+
+.hover_weather>ul{
+    width: 14.4rem;
+} 
+.hover_weather>ul>li{
+    width: 1.2rem;
+    float: left;
+}
+.hover_weather>ul>li>div{
+    margin-bottom: .08rem;
+}
+.hover_weather>ul>li>div:last-child{
+    margin-bottom:0;
+}
+.hoursDataImages>img{
+    width: .3rem;
+    height: .3rem;
+}
+
+
+.fulture-weather-box{
+    margin-top: .3rem;
+    background-color: rgba(0, 176, 240, 0.3);
+    /* padding:0 .1rem; */
+}
+
+.fulture-timer-title{
+    padding: .1rem ;
+    border-bottom:1px solid #fff;
+}
+
+.fWeather{
+    /* padding: .2rem .1rem; */
+    /* font-size: 14px; */
+    
+}
+.fWeather>li{
+    padding: .2rem .1rem;
+    border-bottom:1px solid #fff; 
+}
+
+.fWeather>li>div{
+    width:15%;
+    float: left;
+    
+}
+.fWeather>li>div:nth-child(3){
+    width: 25%;
+}
+.fWeather>li>div:last-child{
+    width: 45%;
+}
+
+.fultureDataImages>img{
+    width: .3rem;
+    height: .3rem;
+}
